@@ -7,6 +7,79 @@
   <title>project1</title>
 </head>
 <body>
-  
+  <div class="container">
+        <input type="text" class="inputbox" readonly>
+        <div class="button-container">
+            <button class="button" onclick="
+                currentDisplay='';
+     document.querySelector('.inputbox').value = currentDisplay;">AC</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'%';
+     document.querySelector('.inputbox').value = currentDisplay;" >%</button>
+            <button class="button"  onclick="
+                currentDisplay.value = currentDisplay.value.slice(0,-1);
+     document.querySelector('.inputbox').value = currentDisplay;">D</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'/';
+     document.querySelector('.inputbox').value = currentDisplay;">/</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'7';
+     document.querySelector('.inputbox').value = currentDisplay;">7</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'8';
+     document.querySelector('.inputbox').value = currentDisplay;">8</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'9';
+     document.querySelector('.inputbox').value = currentDisplay;">9</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'*';
+     document.querySelector('.inputbox').value = currentDisplay;">*</button>
+            <button class="button" onclick="
+                currentDisplay=currentDisplay+'4';
+     document.querySelector('.inputbox').value = currentDisplay;">4</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'5';
+     document.querySelector('.inputbox').value = currentDisplay;">5</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'6';
+     document.querySelector('.inputbox').value = currentDisplay;">6</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'+';
+     document.querySelector('.inputbox').value = currentDisplay;">+</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'3';
+     document.querySelector('.inputbox').value = currentDisplay;">3</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'2';
+     document.querySelector('.inputbox').value = currentDisplay;">2</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'1';
+     document.querySelector('.inputbox').value = currentDisplay;">1</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'-';
+     document.querySelector('.inputbox').value = currentDisplay;">-</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'00';
+     document.querySelector('.inputbox').value = currentDisplay;">00</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'0';
+     document.querySelector('.inputbox').value = currentDisplay;">0</button>
+            <button class="button"  onclick="
+                currentDisplay=currentDisplay+'.';
+     document.querySelector('.inputbox').value = currentDisplay;">.</button>
+            <button class="button1"  onclick="
+                currentDisplay=eval(currentDisplay);
+     document.querySelector('.inputbox').value = currentDisplay;">=</button>
+            
+            
+        </div>
+
+    </div>
+   
+   
+   <script>
+    let currentDisplay = '';
+     document.querySelector('.inputbox').value = currentDisplay;
+   </script>
 </body>
 </html>

@@ -1,1 +1,54 @@
 /* project styling */
+body{
+    background-color:rgba(0, 2, 7, 0.822);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+.container{
+    background-color: black;
+     width: 300px;
+     height: 500px;
+     display: flex;
+     flex-wrap: wrap;
+     border: 3px solid rgb(76, 75, 75);
+     border-radius: 10px;
+     
+     
+}
+.inputbox{
+     background-color: black;
+     color: white;
+    width: 90%;
+    height: 180px;
+    font-size: 32px;
+    text-align:end;
+    justify-content: baseline;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px ;
+    
+    
+}
+.button{
+    width: 68px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 100%;
+    border: none;
+    font-size: 30px;
+    color: white;
+     background-color:rgb(76, 75, 75);
+}
+.button1{
+    width: 68px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 100%;
+    border: none;
+    font-size: 32px;
+    background-color: orangered;
+    color: white;
+}
