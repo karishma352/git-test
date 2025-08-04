@@ -1,0 +1,93 @@
+/*signup form styling*/
+body{
+  margin: 0;
+  padding: 0;
+  margin-top: 150px;
+  background-image: url(https://tse4.mm.bing.net/th/id/OIP.rd5WZm1MAKAcyxkvW-zlQwHaDm?pid=Api&P=0&h=180);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+}
+
+.form-box{
+height: 400px;
+width: 300px;
+background-color: rgb(59, 58, 58);
+border: 1px solid black;
+border-radius: 10px;
+text-align: center;
+
+
+}
+
+
+
+.form-heading{
+  border-bottom: 1px solid purple;
+  color: white;
+}
+
+.username-box{
+  margin-top: 40px;
+  height: 38px;
+  width: 250px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  background:transparent;
+  transform: translate(0);
+}
+.username-box:hover{
+  transition: 0s ease-in-out;
+  box-shadow: 0 0 10px white,
+              0 0 10px white,
+              0 0 10px white,
+              0 0 10px white;
+  cursor: pointer;
+}
+
+
+.password-box{
+   margin-top: 30px;
+  height: 38px;
+  width: 250px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  background:transparent;
+  transform: translate(0);
+}
+
+.password-box:hover{
+  transition: 0s ease-in-out;
+  box-shadow: 0 0 10px white,
+              0 0 10px white,
+              0 0 10px white,
+              0 0 10px white;
+  cursor: pointer;
+}
+.signup-button{
+  margin-top: 30px;
+  height: 38px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background: linear-gradient( rgb(158, 212, 234),rgb(121, 52, 121));
+  transform: translate(0);
+}
+/* glow animation on button */
+
+.signup-button:hover{
+  transition: 0s ease-in-out;
+  box-shadow: 0 0 10px white,
+              0 0 10px white,
+              0 0 10px white,
+              0 0 10px white;
+  cursor: pointer;
+}
