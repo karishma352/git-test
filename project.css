@@ -1,25 +1,24 @@
-/* project styling */
 body{
     background-color:rgba(0, 2, 7, 0.822);
     display: flex;
     justify-content: center;
     margin-top: 200px;
-    
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.2o21_OH1teWO-PrNEZUyxwHaGo?pid=Api&P=0&h=180);
 }
 .container{
-    background-color: black;
+    background-color: rgb(209, 183, 183);
      width: 300px;
      height: 500px;
      display: flex;
      flex-wrap: wrap;
-     border: 3px solid rgb(76, 75, 75);
-     border-radius: 10px;
-     
+     border: 3px solid black;
+     border-radius: 20px;
+    /* background: transparent; */
      
 }
 .inputbox{
-     background-color: black;
-     color: white;
+     background-color: rgb(145, 145, 150);
+     color: black;
     width: 90%;
     height: 180px;
     font-size: 32px;
@@ -41,6 +40,16 @@ body{
     font-size: 30px;
     color: white;
      background-color:rgb(76, 75, 75);
+     transform: translate(0);
+}
+
+.button:hover{
+    transition: 0s ease-in-out;
+    box-shadow: 0 0 10px rgb(225, 157, 74),
+                0 0 10px rgb(225, 157, 74),
+                0 0 10px rgb(225, 157, 74),
+                0 0 10px rgb(225, 157, 74);
+  cursor: pointer;
 }
 .button1{
     width: 68px;
@@ -51,4 +60,14 @@ body{
     font-size: 32px;
     background-color: orangered;
     color: white;
+    transform: translate(0);
+}
+
+.button1:hover{
+      transition: 0s ease-in-out;
+    box-shadow: 0 0 10px white,
+                0 0 10px white,
+                0 0 10px white,
+                0 0 10px white;
+  cursor: pointer;
 }
